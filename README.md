@@ -14,18 +14,27 @@ It is intended to be used **only through a trusted and approved distribution flo
 
 ```javascript
 // ==UserScript==
-// @name         Aviago 🛩️
-// @namespace    https://badzone.co/aviago
+// @name         Aviago
+// @namespace    https://badzone.co/
 // @version      1.0.0
-// @description  Automation system for Aviator
-// @author       Badzone
-// @match        *://*/*
-// @grant        GM_setValue
+// @description  Modular, secure automation for Aviator game
+// @author       BadZone
+// @match        https://aviator-next.spribegaming.com/*
+// @match        https://www.betpawa.rw/*
+// @connect      firestore.googleapis.com
+// @connect      pushover.net
+// @require      https://cdn.jsdelivr.net/gh/Badzoneyv4n/aviago-dist@b717d7a/dist/aviago.secure.js
 // @grant        GM_getValue
+// @grant        GM_setValue
 // @grant        GM_addValueChangeListener
 // @grant        GM_xmlhttpRequest
-// @require      https://cdn.jsdelivr.net/gh/Badzoneyv4n/aviago-dist@latest/dist/aviago.secure.js
 // ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Thank you for your time
+})();
 ```
 ---
 ## 📌 Version Info
